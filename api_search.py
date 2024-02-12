@@ -1,20 +1,24 @@
 import json
 import cohere
 from deeplake.core.vectorstore.deeplake_vectorstore import VectorStore
-from functools import lru_cache
-import re
 import json
 import os
+
+# load the local .env file
+from dotenv import load_dotenv
+
+load_dotenv()
 
 co = cohere.Client(os.environ["COHERE_API_KEY"])
 ORG_NAME = "rubenselander"  # Organization name on activeloop hub
 VECTOR_STORE_NAME = "eurostat_cohere"  # Name of vector store on activeloop hub
-# TOKEN = os.environ["ACTIVATELOOP_TOKEN"]
+TOKEN = os.environ["ACTIVELOOP_TOKEN"]
 
 
 vector_store = VectorStore(
     path=f"hub://{ORG_NAME}/{VECTOR_STORE_NAME}",
     runtime={"tensor_db": True},
+    token=TOKEN,
 )
 
 
@@ -22,7 +26,7 @@ def cohere_embedding_function(texts, model="embed-multilingual-v3.0"):
     if isinstance(texts, str):
         texts = [texts]
 
-    response = co.embed(texts, model=model, input_type="search_query", truncate="END")
+    response = co.embed(texts, model=model, input_type="search_query")
     return response.embeddings
 
 
@@ -74,10 +78,13 @@ def test_search():
     search_string = "Does life expectancy in the EU correlate with GDP per capita?"
     search_results = search_eurostat(search_string, k=2)
     print(f"type: {type(search_results)}")
+    print(f"search_results: {search_results}")
+    # with open("search_test.json", "w") as f:
+    #     json.dump(search_results, f, indent=4, ensure_ascii=False)
 
-    with open("search_test.json", "w") as f:
-        json.dump(search_results, f, indent=4, ensure_ascii=False)
 
-
-test_search()
+# search_string = "Does life expectancy in the EU correlate with GDP per capita?"
+# embeddings = cohere_embedding_function(search_string)
+# print(embeddings)
 # https://ec.europa.eu/eurostat/databrowser/view/lfsa_upgadl
+test_search()

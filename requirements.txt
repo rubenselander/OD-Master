@@ -3,3 +3,4 @@ pandas
 deeplake
 cohere
 ipykernel
+dotenv
