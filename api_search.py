@@ -22,6 +22,9 @@ vector_store = VectorStore(
 )
 
 
+# # Potential filter function for vector_store.search
+
+
 def cohere_embedding_function(texts, model="embed-multilingual-v3.0"):
     if isinstance(texts, str):
         texts = [texts]
@@ -76,6 +79,16 @@ def search_eurostat(search_string: str, year: int = None, k=10) -> dict:
 
 def od_search(search_string: str, k: int = 10):
     """Performs a search in tables based on the given search string."""
+
+    # def filter_dates(x):
+    #     include = True
+    #     if start_date:
+    #         start_date_table = x["start_date"].data()
+    #         if start_date
+
+    #     end_date = x["end_date"].data()
+    #     # return x["metadata"].data()["value"]["tokens"] < 1000
+
     results = vector_store.search(
         embedding_data=search_string,
         embedding_function=cohere_embedding_function,
@@ -83,20 +96,53 @@ def od_search(search_string: str, k: int = 10):
         return_tensors=["text", "code", "start_date", "end_date"],
         k=k,
     )
-    return results
+    base_url = "https://ec.europa.eu/eurostat/databrowser/view/{CODE}/default/table"
+    results_with_urls = []
+    for res in results:
+        url = base_url.format(CODE=res["code"].lower())
+        res["url"] = url
+        results_with_urls.append(res)
+    return results_with_urls
 
 
+# [
+#     {
+#         "text": "Life expectancy by age, sex and educational attainment level",
+#         "code": "DEMO_MLEXPECEDU",
+#         "start_date": 2017,
+#         "end_date": 2007,
+#     },
+#     {
+#         "text": "Purchasing power adjusted GDP per capita",
+#         "code": "SDG_10_10",
+#         "start_date": 2022,
+#         "end_date": 2000,
+#     },
+# ]
 def test_search():
-    search_string = "Does life expectancy in the EU correlate with GDP per capita?"
-    search_results = search_eurostat(search_string, k=2)
-    print(f"type: {type(search_results)}")
-    print(f"search_results: {search_results}")
-    with open("search_test.json", "w") as f:
-        json.dump(search_results, f, indent=4, ensure_ascii=False)
+    # search_string = "Does life expectancy in the EU correlate with GDP per capita?"
+    # search_results = search_eurostat(search_string, k=2)
+    # print(f"type: {type(search_results)}")
+    # print(f"search_results: {search_results}")
+    # with open("search_test.json", "w") as f:
+    #     json.dump(search_results, f, indent=4, ensure_ascii=False)
+    term = "interest rates"
 
+    results = od_search(search_string=term)
+
+    for res in results:
+        title = res["text"]
+        url = res["url"]
+        print(f"{title}: {url}")
+
+
+test_search()
 
 # search_string = "Does life expectancy in the EU correlate with GDP per capita?"
 # embeddings = cohere_embedding_function(search_string)
 # print(embeddings)
 # https://ec.europa.eu/eurostat/databrowser/view/lfsa_upgadl
-test_search()
+# test_search()
+
+# https://ec.europa.eu/eurostat/databrowser/view/SDG_10_10/default/table?lang=en
+# https://ec.europa.eu/eurostat/databrowser/view/{CODE}/default/table

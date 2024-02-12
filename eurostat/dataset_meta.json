@@ -1,0 +1,63 @@
+{
+    "default_index": [
+        {
+            "start": null,
+            "step": null,
+            "stop": null
+        }
+    ],
+    "groups": [],
+    "hidden_tensors": [
+        "_text_id",
+        "_code_id",
+        "_source_id",
+        "_embedding_shape",
+        "_embedding_id",
+        "_start_date_shape",
+        "_start_date_id",
+        "_end_date_shape",
+        "_end_date_id",
+        "_variables_id"
+    ],
+    "tensor_names": {
+        "_code_id": "_code_id",
+        "_embedding_id": "_embedding_id",
+        "_embedding_shape": "_embedding_shape",
+        "_end_date_id": "_end_date_id",
+        "_end_date_shape": "_end_date_shape",
+        "_source_id": "_source_id",
+        "_start_date_id": "_start_date_id",
+        "_start_date_shape": "_start_date_shape",
+        "_text_id": "_text_id",
+        "_variables_id": "_variables_id",
+        "code": "code",
+        "embedding": "embedding",
+        "end_date": "end_date",
+        "id": "id",
+        "source": "source",
+        "start_date": "start_date",
+        "text": "text",
+        "variables": "variables"
+    },
+    "tensors": [
+        "text",
+        "_text_id",
+        "code",
+        "_code_id",
+        "source",
+        "_source_id",
+        "embedding",
+        "_embedding_shape",
+        "_embedding_id",
+        "start_date",
+        "_start_date_shape",
+        "_start_date_id",
+        "end_date",
+        "_end_date_shape",
+        "_end_date_id",
+        "variables",
+        "_variables_id",
+        "id"
+    ],
+    "version": "3.8.17"
+}

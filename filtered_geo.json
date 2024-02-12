@@ -1,0 +1,1934 @@
+[
+    {
+        "id": "EUR",
+        "name": "Europe"
+    },
+    {
+        "id": "EU",
+        "name": "European Union (EU6-1958, EU9-1973, EU10-1981, EU12-1986, EU15-1995, EU25-2004, EU27-2007, EU28-2013, EU27-2020)"
+    },
+    {
+        "id": "EU_V",
+        "name": "European Union (aggregate changing according to the context)"
+    },
+    {
+        "id": "EU27_2020_EFTA",
+        "name": "European Union - 27 countries (from 2020) and European Free Trade Association (EFTA) countries"
+    },
+    {
+        "id": "EU27_2020_IS_K",
+        "name": "European Union - 27 countries (from 2020) and Iceland under the Kyoto Protocol"
+    },
+    {
+        "id": "EU27_2020",
+        "name": "European Union - 27 countries (from 2020)"
+    },
+    {
+        "id": "EU28_EFTA",
+        "name": "European Union - 28 countries (2013-2020) and European Free Trade Association (EFTA) countries"
+    },
+    {
+        "id": "EU28_IS_K",
+        "name": "European Union - 28 countries (2013-2020) and Iceland under the Kyoto Protocol"
+    },
+    {
+        "id": "EU28",
+        "name": "European Union - 28 countries (2013-2020)"
+    },
+    {
+        "id": "EU27_2007",
+        "name": "European Union - 27 countries (2007-2013)"
+    },
+    {
+        "id": "EU25",
+        "name": "European Union - 25 countries (2004-2006)"
+    },
+    {
+        "id": "EU15",
+        "name": "European Union - 15 countries (1995-2004)"
+    },
+    {
+        "id": "EU15_NO",
+        "name": "European Union - 15 countries (1995-2004) and Norway"
+    },
+    {
+        "id": "EU12",
+        "name": "European Community - 12 countries (1986-1994)"
+    },
+    {
+        "id": "EU10",
+        "name": "European Community - 10 countries (1981-1985)"
+    },
+    {
+        "id": "EU9",
+        "name": "European Community - 9 countries (1973-1980)"
+    },
+    {
+        "id": "EU6",
+        "name": "European Community  - 6 founder countries (1958-1972)"
+    },
+    {
+        "id": "BE",
+        "name": "Belgium"
+    },
+    {
+        "id": "BE1_2",
+        "name": "R\u00e9gion de Bruxelles-Capitale/Brussels Hoofdstedelijk Gewest and Vlaams Gewest"
+    },
+    {
+        "id": "BE1",
+        "name": "R\u00e9gion de Bruxelles-Capitale/Brussels Hoofdstedelijk Gewest"
+    },
+    {
+        "id": "BE10_24",
+        "name": "R\u00e9gion de Bruxelles-Capitale/Brussels Hoofdstedelijk Gewest and Prov. Vlaams Brabant"
+    },
+    {
+        "id": "BE10",
+        "name": "R\u00e9gion de Bruxelles-Capitale/Brussels Hoofdstedelijk Gewest"
+    },
+    {
+        "id": "BE100",
+        "name": "Arr. de Bruxelles-Capitale/Arr. Brussel-Hoofdstad"
+    },
+    {
+        "id": "BE2",
+        "name": "Vlaams Gewest"
+    },
+    {
+        "id": "BE21",
+        "name": "Prov. Antwerpen"
+    },
+    {
+        "id": "BE211",
+        "name": "Arr. Antwerpen"
+    },
+    {
+        "id": "BE212",
+        "name": "Arr. Mechelen"
+    },
+    {
+        "id": "BE213",
+        "name": "Arr. Turnhout"
+    },
+    {
+        "id": "BE22",
+        "name": "Prov. Limburg (BE)"
+    },
+    {
+        "id": "BE221",
+        "name": "Arr. Hasselt (NUTS 2016)"
+    },
+    {
+        "id": "BE222",
+        "name": "Arr. Maaseik (NUTS 2016)"
+    },
+    {
+        "id": "BE223",
+        "name": "Arr. Tongeren"
+    },
+    {
+        "id": "BE224",
+        "name": "Arr. Hasselt"
+    },
+    {
+        "id": "BE225",
+        "name": "Arr. Maaseik"
+    },
+    {
+        "id": "BE23",
+        "name": "Prov. Oost-Vlaanderen"
+    },
+    {
+        "id": "BE231",
+        "name": "Arr. Aalst"
+    },
+    {
+        "id": "BE232",
+        "name": "Arr. Dendermonde"
+    },
+    {
+        "id": "BE233",
+        "name": "Arr. Eeklo"
+    },
+    {
+        "id": "BE234",
+        "name": "Arr. Gent"
+    },
+    {
+        "id": "BE235",
+        "name": "Arr. Oudenaarde"
+    },
+    {
+        "id": "BE236",
+        "name": "Arr. Sint-Niklaas"
+    },
+    {
+        "id": "BE24",
+        "name": "Prov. Vlaams-Brabant"
+    },
+    {
+        "id": "BE241",
+        "name": "Arr. Halle-Vilvoorde"
+    },
+    {
+        "id": "BE242",
+        "name": "Arr. Leuven"
+    },
+    {
+        "id": "BE25",
+        "name": "Prov. West-Vlaanderen"
+    },
+    {
+        "id": "BE251",
+        "name": "Arr. Brugge"
+    },
+    {
+        "id": "BE252",
+        "name": "Arr. Diksmuide"
+    },
+    {
+        "id": "BE253",
+        "name": "Arr. Ieper"
+    },
+    {
+        "id": "BE254",
+        "name": "Arr. Kortrijk"
+    },
+    {
+        "id": "BE255",
+        "name": "Arr. Oostende"
+    },
+    {
+        "id": "BE256",
+        "name": "Arr. Roeselare"
+    },
+    {
+        "id": "BE257",
+        "name": "Arr. Tielt"
+    },
+    {
+        "id": "BE258",
+        "name": "Arr. Veurne"
+    },
+    {
+        "id": "BE3",
+        "name": "R\u00e9gion wallonne"
+    },
+    {
+        "id": "BE31",
+        "name": "Prov. Brabant wallon"
+    },
+    {
+        "id": "BE310",
+        "name": "Arr. Nivelles"
+    },
+    {
+        "id": "BE32",
+        "name": "Prov. Hainaut"
+    },
+    {
+        "id": "BE321",
+        "name": "Arr. Ath (NUTS 2016)"
+    },
+    {
+        "id": "BE322",
+        "name": "Arr. Charleroi (NUTS 2016)"
+    },
+    {
+        "id": "BE323",
+        "name": "Arr. Mons"
+    },
+    {
+        "id": "BE324",
+        "name": "Arr. Mouscron (NUTS 2016)"
+    },
+    {
+        "id": "BE325",
+        "name": "Arr. Soignies (NUTS 2016)"
+    },
+    {
+        "id": "BE326",
+        "name": "Arr. Thuin (NUTS 2016)"
+    },
+    {
+        "id": "BE327",
+        "name": "Arr. Tournai (NUTS 2016)"
+    },
+    {
+        "id": "BE328",
+        "name": "Arr. Tournai-Mouscron"
+    },
+    {
+        "id": "BE329",
+        "name": "Arr. La Louvi\u00e8re"
+    },
+    {
+        "id": "BE32A",
+        "name": "Arr. Ath"
+    },
+    {
+        "id": "BE32B",
+        "name": "Arr. Charleroi"
+    },
+    {
+        "id": "BE32C",
+        "name": "Arr. Soignies"
+    },
+    {
+        "id": "BE32D",
+        "name": "Arr. Thuin"
+    },
+    {
+        "id": "BE33",
+        "name": "Prov. Li\u00e8ge"
+    },
+    {
+        "id": "BE331",
+        "name": "Arr. Huy"
+    },
+    {
+        "id": "BE332",
+        "name": "Arr. Li\u00e8ge"
+    },
+    {
+        "id": "BE334",
+        "name": "Arr. Waremme"
+    },
+    {
+        "id": "BE335_336",
+        "name": "Arr. Verviers"
+    },
+    {
+        "id": "BE335",
+        "name": "Arr. Verviers - communes francophones"
+    },
+    {
+        "id": "BE336",
+        "name": "Bezirk Verviers - Deutschsprachige Gemeinschaft"
+    },
+    {
+        "id": "BE34",
+        "name": "Prov. Luxembourg (BE)"
+    },
+    {
+        "id": "BE341",
+        "name": "Arr. Arlon"
+    },
+    {
+        "id": "BE342",
+        "name": "Arr. Bastogne"
+    },
+    {
+        "id": "BE343",
+        "name": "Arr. Marche-en-Famenne"
+    },
+    {
+        "id": "BE344",
+        "name": "Arr. Neufch\u00e2teau"
+    },
+    {
+        "id": "BE345",
+        "name": "Arr. Virton"
+    },
+    {
+        "id": "BE35",
+        "name": "Prov. Namur"
+    },
+    {
+        "id": "BE351",
+        "name": "Arr. Dinant"
+    },
+    {
+        "id": "BE352",
+        "name": "Arr. Namur"
+    },
+    {
+        "id": "BE353",
+        "name": "Arr. Philippeville"
+    },
+    {
+        "id": "BEZ",
+        "name": "Extra-Regio NUTS 1"
+    },
+    {
+        "id": "BEZZ",
+        "name": "Extra-Regio NUTS 2"
+    },
+    {
+        "id": "BEZZZ",
+        "name": "Extra-Regio NUTS 3"
+    },
+    {
+        "id": "BE_FRA",
+        "name": "French Community in Belgium including small German-speaking Community"
+    },
+    {
+        "id": "BE_VLA",
+        "name": "Flemish Community in Belgium"
+    },
+    {
+        "id": "BE_CAP",
+        "name": "Bruxelles/Brussel"
+    },
+    {
+        "id": "BEX",
+        "name": "Not regionalised/Unknown NUTS 1"
+    },
+    {
+        "id": "BEXX",
+        "name": "Not regionalised/Unknown NUTS 2"
+    },
+    {
+        "id": "BEXXX",
+        "name": "Not regionalised/Unknown NUTS 3"
+    },
+    {
+        "id": "BE_NAL",
+        "name": "Belgium, not allocated"
+    },
+    {
+        "id": "DK",
+        "name": "Denmark"
+    },
+    {
+        "id": "DK0",
+        "name": "Danmark"
+    },
+    {
+        "id": "DK01",
+        "name": "Hovedstaden"
+    },
+    {
+        "id": "DK011",
+        "name": "Byen K\u00f8benhavn"
+    },
+    {
+        "id": "DK012",
+        "name": "K\u00f8benhavns omegn"
+    },
+    {
+        "id": "DK013",
+        "name": "Nordsj\u00e6lland"
+    },
+    {
+        "id": "DK014",
+        "name": "Bornholm"
+    },
+    {
+        "id": "DK02",
+        "name": "Sj\u00e6lland"
+    },
+    {
+        "id": "DK021",
+        "name": "\u00d8stsj\u00e6lland"
+    },
+    {
+        "id": "DK022",
+        "name": "Vest- og Sydsj\u00e6lland"
+    },
+    {
+        "id": "DK03",
+        "name": "Syddanmark"
+    },
+    {
+        "id": "DK031",
+        "name": "Fyn"
+    },
+    {
+        "id": "DK032",
+        "name": "Sydjylland"
+    },
+    {
+        "id": "DK04",
+        "name": "Midtjylland"
+    },
+    {
+        "id": "DK041",
+        "name": "Vestjylland"
+    },
+    {
+        "id": "DK042",
+        "name": "\u00d8stjylland"
+    },
+    {
+        "id": "DK05",
+        "name": "Nordjylland"
+    },
+    {
+        "id": "DK050",
+        "name": "Nordjylland"
+    },
+    {
+        "id": "DKZ",
+        "name": "Extra-Regio NUTS 1"
+    },
+    {
+        "id": "DKZZ",
+        "name": "Extra-Regio NUTS 2"
+    },
+    {
+        "id": "DKZZZ",
+        "name": "Extra-Regio NUTS 3"
+    },
+    {
+        "id": "DK001-004",
+        "name": "K\u00f8benhavn og Frederiksberg Kommuner, Roskilde amt, K\u00f8benhavns amt, Frederiksborg amt (NUTS 1999)"
+    },
+    {
+        "id": "DK001",
+        "name": "K\u00f8benhavn og Frederiksberg Kommuner (NUTS 1999)"
+    },
+    {
+        "id": "DK002",
+        "name": "K\u00f8benhavns amt (NUTS 1999)"
+    },
+    {
+        "id": "DK003",
+        "name": "Frederiksborg amt (NUTS 1999)"
+    },
+    {
+        "id": "DK004",
+        "name": "Roskilde amt (NUTS 1999)"
+    },
+    {
+        "id": "DK005",
+        "name": "Vestsj\u00e6llands amt (NUTS 1999)"
+    },
+    {
+        "id": "DK006",
+        "name": "Storstr\u00f8ms amt (NUTS 1999)"
+    },
+    {
+        "id": "DK007",
+        "name": "Bornholms amt (NUTS 1999)"
+    },
+    {
+        "id": "DK008",
+        "name": "Fyns amt (NUTS 1999)"
+    },
+    {
+        "id": "DK009",
+        "name": "S\u00f8nderjyllands amt (NUTS 1999)"
+    },
+    {
+        "id": "DK00A",
+        "name": "Ribe amt (NUTS 1999)"
+    },
+    {
+        "id": "DK00B",
+        "name": "Vejle amt (NUTS 1999)"
+    },
+    {
+        "id": "DK00C",
+        "name": "Ringk\u00f8bing amt (NUTS 1999)"
+    },
+    {
+        "id": "DK00D",
+        "name": "\u00c5rhus amt (NUTS 1999)"
+    },
+    {
+        "id": "DK00E",
+        "name": "Viborg amt (NUTS 1999)"
+    },
+    {
+        "id": "DK00F",
+        "name": "Nordjyllands amt (NUTS 1999)"
+    },
+    {
+        "id": "DK_CAP",
+        "name": "K\u00f8benhavn"
+    },
+    {
+        "id": "DKX",
+        "name": "Not regionalised/Unknown NUTS 1"
+    },
+    {
+        "id": "DKXX",
+        "name": "Not regionalised/Unknown NUTS 2"
+    },
+    {
+        "id": "DKXXX",
+        "name": "Not regionalised/Unknown NUTS 3"
+    },
+    {
+        "id": "NL",
+        "name": "Netherlands"
+    },
+    {
+        "id": "NL1",
+        "name": "Noord-Nederland"
+    },
+    {
+        "id": "NL11",
+        "name": "Groningen"
+    },
+    {
+        "id": "NL111",
+        "name": "Oost-Groningen"
+    },
+    {
+        "id": "NL112",
+        "name": "Delfzijl en omgeving"
+    },
+    {
+        "id": "NL113",
+        "name": "Overig Groningen"
+    },
+    {
+        "id": "NL12",
+        "name": "Friesland (NL)"
+    },
+    {
+        "id": "NL121",
+        "name": "Noord-Friesland (NUTS 2013)"
+    },
+    {
+        "id": "NL122",
+        "name": "Zuidwest-Friesland (NUTS 2013)"
+    },
+    {
+        "id": "NL123",
+        "name": "Zuidoost-Friesland (NUTS 2013)"
+    },
+    {
+        "id": "NL124",
+        "name": "Noord-Friesland"
+    },
+    {
+        "id": "NL125",
+        "name": "Zuidwest-Friesland"
+    },
+    {
+        "id": "NL126",
+        "name": "Zuidoost-Friesland"
+    },
+    {
+        "id": "NL13",
+        "name": "Drenthe"
+    },
+    {
+        "id": "NL131",
+        "name": "Noord-Drenthe"
+    },
+    {
+        "id": "NL132",
+        "name": "Zuidoost-Drenthe"
+    },
+    {
+        "id": "NL133",
+        "name": "Zuidwest-Drenthe"
+    },
+    {
+        "id": "NL2",
+        "name": "Oost-Nederland"
+    },
+    {
+        "id": "NL21",
+        "name": "Overijssel"
+    },
+    {
+        "id": "NL211",
+        "name": "Noord-Overijssel"
+    },
+    {
+        "id": "NL212",
+        "name": "Zuidwest-Overijssel"
+    },
+    {
+        "id": "NL213",
+        "name": "Twente"
+    },
+    {
+        "id": "NL22",
+        "name": "Gelderland"
+    },
+    {
+        "id": "NL221",
+        "name": "Veluwe"
+    },
+    {
+        "id": "NL222",
+        "name": "Achterhoek (NUTS 2003)"
+    },
+    {
+        "id": "NL223",
+        "name": "Arnhem/Nijmegen (NUTS 2003)"
+    },
+    {
+        "id": "NL224",
+        "name": "Zuidwest-Gelderland"
+    },
+    {
+        "id": "NL225",
+        "name": "Achterhoek"
+    },
+    {
+        "id": "NL226",
+        "name": "Arnhem/Nijmegen"
+    },
+    {
+        "id": "NL23",
+        "name": "Flevoland"
+    },
+    {
+        "id": "NL230",
+        "name": "Flevoland"
+    },
+    {
+        "id": "NL3",
+        "name": "West-Nederland"
+    },
+    {
+        "id": "NL31",
+        "name": "Utrecht"
+    },
+    {
+        "id": "NL310",
+        "name": "Utrecht"
+    },
+    {
+        "id": "NL32",
+        "name": "Noord-Holland"
+    },
+    {
+        "id": "NL321",
+        "name": "Kop van Noord-Holland"
+    },
+    {
+        "id": "NL322",
+        "name": "Alkmaar en omgeving (NUTS 2013)"
+    },
+    {
+        "id": "NL323",
+        "name": "IJmond"
+    },
+    {
+        "id": "NL324",
+        "name": "Agglomeratie Haarlem"
+    },
+    {
+        "id": "NL325",
+        "name": "Zaanstreek"
+    },
+    {
+        "id": "NL326",
+        "name": "Groot-Amsterdam (NUTS 2013)"
+    },
+    {
+        "id": "NL327",
+        "name": "Het Gooi en Vechtstreek"
+    },
+    {
+        "id": "NL328",
+        "name": "Alkmaar en omgeving"
+    },
+    {
+        "id": "NL329",
+        "name": "Groot-Amsterdam"
+    },
+    {
+        "id": "NL33",
+        "name": "Zuid-Holland"
+    },
+    {
+        "id": "NL331",
+        "name": "Agglomeratie Leiden en Bollenstreek (NUTS 2006)"
+    },
+    {
+        "id": "NL332",
+        "name": "Agglomeratie 's-Gravenhage"
+    },
+    {
+        "id": "NL333",
+        "name": "Delft en Westland"
+    },
+    {
+        "id": "NL334",
+        "name": "Oost-Zuid-Holland (NUTS 2006)"
+    },
+    {
+        "id": "NL335",
+        "name": "Groot-Rijnmond (NUTS 2006)"
+    },
+    {
+        "id": "NL336",
+        "name": "Zuidoost-Zuid-Holland (NUTS 2006)"
+    },
+    {
+        "id": "NL337",
+        "name": "Agglomeratie Leiden en Bollenstreek"
+    },
+    {
+        "id": "NL338",
+        "name": "Oost-Zuid-Holland (NUTS 2013)"
+    },
+    {
+        "id": "NL339",
+        "name": "Groot-Rijnmond (NUTS 2013)"
+    },
+    {
+        "id": "NL33A",
+        "name": "Zuidoost-Zuid-Holland"
+    },
+    {
+        "id": "NL33B",
+        "name": "Oost-Zuid-Holland"
+    },
+    {
+        "id": "NL33C",
+        "name": "Groot-Rijnmond"
+    },
+    {
+        "id": "NL34",
+        "name": "Zeeland"
+    },
+    {
+        "id": "NL341",
+        "name": "Zeeuwsch-Vlaanderen"
+    },
+    {
+        "id": "NL342",
+        "name": "Overig Zeeland"
+    },
+    {
+        "id": "NL4",
+        "name": "Zuid-Nederland"
+    },
+    {
+        "id": "NL41",
+        "name": "Noord-Brabant"
+    },
+    {
+        "id": "NL411",
+        "name": "West-Noord-Brabant"
+    },
+    {
+        "id": "NL412",
+        "name": "Midden-Noord-Brabant"
+    },
+    {
+        "id": "NL413",
+        "name": "Noordoost-Noord-Brabant"
+    },
+    {
+        "id": "NL414",
+        "name": "Zuidoost-Noord-Brabant"
+    },
+    {
+        "id": "NL42",
+        "name": "Limburg (NL)"
+    },
+    {
+        "id": "NL421",
+        "name": "Noord-Limburg"
+    },
+    {
+        "id": "NL422",
+        "name": "Midden-Limburg"
+    },
+    {
+        "id": "NL423",
+        "name": "Zuid-Limburg"
+    },
+    {
+        "id": "NLZ",
+        "name": "Extra-Regio NUTS 1"
+    },
+    {
+        "id": "NLZZ",
+        "name": "Extra-Regio NUTS 2"
+    },
+    {
+        "id": "NLZZZ",
+        "name": "Extra-Regio NUTS 3"
+    },
+    {
+        "id": "NL_S_W",
+        "name": "Zuidwest"
+    },
+    {
+        "id": "NL_RMD",
+        "name": "Rijnmond"
+    },
+    {
+        "id": "NL_NZKG",
+        "name": "Noordzeekanaalgebied"
+    },
+    {
+        "id": "NL_CAP",
+        "name": "Amsterdam"
+    },
+    {
+        "id": "NL_DEL",
+        "name": "Den Haag"
+    },
+    {
+        "id": "NLX",
+        "name": "Not regionalised/Unknown NUTS 1"
+    },
+    {
+        "id": "NLXX",
+        "name": "Not regionalised/Unknown NUTS 2"
+    },
+    {
+        "id": "NLXXX",
+        "name": "Not regionalised/Unknown NUTS 3"
+    },
+    {
+        "id": "NL_NAL",
+        "name": "Netherlands, not allocated"
+    },
+    {
+        "id": "FI",
+        "name": "Finland"
+    },
+    {
+        "id": "FI1",
+        "name": "Manner-Suomi"
+    },
+    {
+        "id": "FI11_12_2",
+        "name": "Uusimaa, Etel\u00e4-Suomi, \u00c5land (NUTS 1995)"
+    },
+    {
+        "id": "FI11",
+        "name": "Uusimaa (NUTS 1995)"
+    },
+    {
+        "id": "FI12",
+        "name": "Etel\u00e4-Suomi (NUTS 1995)"
+    },
+    {
+        "id": "FI13",
+        "name": "It\u00e4-Suomi (NUTS 2006)"
+    },
+    {
+        "id": "FI131",
+        "name": "Etel\u00e4-Savo (NUTS 2006)"
+    },
+    {
+        "id": "FI132",
+        "name": "Pohjois-Savo (NUTS 2006)"
+    },
+    {
+        "id": "FI133",
+        "name": "Pohjois-Karjala (NUTS 2006)"
+    },
+    {
+        "id": "FI134",
+        "name": "Kainuu (NUTS 2006)"
+    },
+    {
+        "id": "FI14",
+        "name": "V\u00e4li-Suomi (NUTS 1995)"
+    },
+    {
+        "id": "FI15",
+        "name": "Pohjois-Suomi (NUTS 1995)"
+    },
+    {
+        "id": "FI16",
+        "name": "Uusimaa (suuralue)(NUTS 1995)"
+    },
+    {
+        "id": "FI18_20",
+        "name": "Etel\u00e4-Suomi, \u00c5land (NUTS 2006)"
+    },
+    {
+        "id": "FI18",
+        "name": "Etel\u00e4-Suomi (NUTS 2006)"
+    },
+    {
+        "id": "FI181_182",
+        "name": "Uusimaa, It\u00e4-Uusimaa (NUTS 2006)"
+    },
+    {
+        "id": "FI181",
+        "name": "Uusimaa (NUTS 2006)"
+    },
+    {
+        "id": "FI182",
+        "name": "It\u00e4-Uusimaa (NUTS 2006)"
+    },
+    {
+        "id": "FI183",
+        "name": "Varsinais-Suomi (NUTS 2006)"
+    },
+    {
+        "id": "FI184",
+        "name": "Kanta-H\u00e4me (NUTS 2006)"
+    },
+    {
+        "id": "FI185",
+        "name": "P\u00e4ij\u00e4t-H\u00e4me (NUTS 2006)"
+    },
+    {
+        "id": "FI186",
+        "name": "Kymenlaakso (NUTS 2006)"
+    },
+    {
+        "id": "FI187",
+        "name": "Etel\u00e4-Karjala (NUTS 2006)"
+    },
+    {
+        "id": "FI19_20",
+        "name": "L\u00e4nsi-Suomi, \u00c5land"
+    },
+    {
+        "id": "FI19",
+        "name": "L\u00e4nsi-Suomi"
+    },
+    {
+        "id": "FI191",
+        "name": "Satakunta (NUTS 2003)"
+    },
+    {
+        "id": "FI192",
+        "name": "Pirkanmaa (NUTS 2003)"
+    },
+    {
+        "id": "FI193",
+        "name": "Keski-Suomi"
+    },
+    {
+        "id": "FI194",
+        "name": "Etel\u00e4-Pohjanmaa"
+    },
+    {
+        "id": "FI195",
+        "name": "Pohjanmaa"
+    },
+    {
+        "id": "FI196",
+        "name": "Satakunta"
+    },
+    {
+        "id": "FI197",
+        "name": "Pirkanmaa"
+    },
+    {
+        "id": "FI1A",
+        "name": "Pohjois-Suomi (NUTS 2006)"
+    },
+    {
+        "id": "FI1A1",
+        "name": "Keski-Pohjanmaa (NUTS 2006)"
+    },
+    {
+        "id": "FI1A2",
+        "name": "Pohjois-Pohjanmaa (NUTS 2006)"
+    },
+    {
+        "id": "FI1A3",
+        "name": "Lappi (NUTS 2006)"
+    },
+    {
+        "id": "FI1B",
+        "name": "Helsinki-Uusimaa"
+    },
+    {
+        "id": "FI1B1",
+        "name": "Helsinki-Uusimaa"
+    },
+    {
+        "id": "FI1C",
+        "name": "Etel\u00e4-Suomi"
+    },
+    {
+        "id": "FI1C1",
+        "name": "Varsinais-Suomi"
+    },
+    {
+        "id": "FI1C2",
+        "name": "Kanta-H\u00e4me"
+    },
+    {
+        "id": "FI1C3",
+        "name": "P\u00e4ij\u00e4t-H\u00e4me"
+    },
+    {
+        "id": "FI1C4",
+        "name": "Kymenlaakso"
+    },
+    {
+        "id": "FI1C5",
+        "name": "Etel\u00e4-Karjala"
+    },
+    {
+        "id": "FI1D",
+        "name": "Pohjois- ja It\u00e4-Suomi"
+    },
+    {
+        "id": "FI1D1",
+        "name": "Etel\u00e4-Savo"
+    },
+    {
+        "id": "FI1D2",
+        "name": "Pohjois-Savo"
+    },
+    {
+        "id": "FI1D3",
+        "name": "Pohjois-Karjala"
+    },
+    {
+        "id": "FI1D4",
+        "name": "Kainuu (NUTS 2013)"
+    },
+    {
+        "id": "FI1D5",
+        "name": "Keski-Pohjanmaa"
+    },
+    {
+        "id": "FI1D6",
+        "name": "Pohjois-Pohjanmaa (NUTS 2013)"
+    },
+    {
+        "id": "FI1D7",
+        "name": "Lappi"
+    },
+    {
+        "id": "FI1D8",
+        "name": "Kainuu"
+    },
+    {
+        "id": "FI1D9",
+        "name": "Pohjois-Pohjanmaa"
+    },
+    {
+        "id": "FI2",
+        "name": "\u00c5land"
+    },
+    {
+        "id": "FI20",
+        "name": "\u00c5land"
+    },
+    {
+        "id": "FI200",
+        "name": "\u00c5land"
+    },
+    {
+        "id": "FIZ",
+        "name": "Extra-Regio NUTS 1"
+    },
+    {
+        "id": "FIZZ",
+        "name": "Extra-Regio NUTS 2"
+    },
+    {
+        "id": "FIZZZ",
+        "name": "Extra-Regio NUTS 3"
+    },
+    {
+        "id": "FI_CAP",
+        "name": "Helsinki"
+    },
+    {
+        "id": "FIX",
+        "name": "Not regionalised/Unknown NUTS 1"
+    },
+    {
+        "id": "FIXX",
+        "name": "Not regionalised/Unknown NUTS 2"
+    },
+    {
+        "id": "FIXXX",
+        "name": "Not regionalised/Unknown NUTS 3"
+    },
+    {
+        "id": "FI_NAL",
+        "name": "Finland, not allocated"
+    },
+    {
+        "id": "SE",
+        "name": "Sweden"
+    },
+    {
+        "id": "SE1",
+        "name": "\u00d6stra Sverige"
+    },
+    {
+        "id": "SE11",
+        "name": "Stockholm"
+    },
+    {
+        "id": "SE110",
+        "name": "Stockholms l\u00e4n"
+    },
+    {
+        "id": "SE12",
+        "name": "\u00d6stra Mellansverige"
+    },
+    {
+        "id": "SE121",
+        "name": "Uppsala l\u00e4n"
+    },
+    {
+        "id": "SE122",
+        "name": "S\u00f6dermanlands l\u00e4n"
+    },
+    {
+        "id": "SE123",
+        "name": "\u00d6sterg\u00f6tlands l\u00e4n"
+    },
+    {
+        "id": "SE124",
+        "name": "\u00d6rebro l\u00e4n"
+    },
+    {
+        "id": "SE125",
+        "name": "V\u00e4stmanlands l\u00e4n"
+    },
+    {
+        "id": "SE2",
+        "name": "S\u00f6dra Sverige"
+    },
+    {
+        "id": "SE21",
+        "name": "Sm\u00e5land med \u00f6arna"
+    },
+    {
+        "id": "SE211",
+        "name": "J\u00f6nk\u00f6pings l\u00e4n"
+    },
+    {
+        "id": "SE212",
+        "name": "Kronobergs l\u00e4n"
+    },
+    {
+        "id": "SE213",
+        "name": "Kalmar l\u00e4n"
+    },
+    {
+        "id": "SE214",
+        "name": "Gotlands l\u00e4n"
+    },
+    {
+        "id": "SE22",
+        "name": "Sydsverige"
+    },
+    {
+        "id": "SE221",
+        "name": "Blekinge l\u00e4n"
+    },
+    {
+        "id": "SE224",
+        "name": "Sk\u00e5ne l\u00e4n"
+    },
+    {
+        "id": "SE23",
+        "name": "V\u00e4stsverige"
+    },
+    {
+        "id": "SE231",
+        "name": "Hallands l\u00e4n"
+    },
+    {
+        "id": "SE232",
+        "name": "V\u00e4stra G\u00f6talands l\u00e4n"
+    },
+    {
+        "id": "SE3",
+        "name": "Norra Sverige"
+    },
+    {
+        "id": "SE31",
+        "name": "Norra Mellansverige"
+    },
+    {
+        "id": "SE311",
+        "name": "V\u00e4rmlands l\u00e4n"
+    },
+    {
+        "id": "SE312",
+        "name": "Dalarnas l\u00e4n"
+    },
+    {
+        "id": "SE313",
+        "name": "G\u00e4vleborgs l\u00e4n"
+    },
+    {
+        "id": "SE32",
+        "name": "Mellersta Norrland"
+    },
+    {
+        "id": "SE321",
+        "name": "V\u00e4sternorrlands l\u00e4n"
+    },
+    {
+        "id": "SE322",
+        "name": "J\u00e4mtlands l\u00e4n"
+    },
+    {
+        "id": "SE33",
+        "name": "\u00d6vre Norrland"
+    },
+    {
+        "id": "SE331",
+        "name": "V\u00e4sterbottens l\u00e4n"
+    },
+    {
+        "id": "SE332",
+        "name": "Norrbottens l\u00e4n"
+    },
+    {
+        "id": "SEZ",
+        "name": "Extra-Regio NUTS 1"
+    },
+    {
+        "id": "SEZZ",
+        "name": "Extra-Regio NUTS 2"
+    },
+    {
+        "id": "SEZZZ",
+        "name": "Extra-Regio NUTS 3"
+    },
+    {
+        "id": "SE021",
+        "name": "Uppsala l\u00e4n (NUTS 2003)"
+    },
+    {
+        "id": "SE025",
+        "name": "V\u00e4stmanlands l\u00e4n (NUTS 2003)"
+    },
+    {
+        "id": "SE03",
+        "name": "Sm\u00e5land med \u00f6arna (NUTS 1995)"
+    },
+    {
+        "id": "SE05",
+        "name": "V\u00e4stsverige (NUTS 1995)"
+    },
+    {
+        "id": "SE_CAP",
+        "name": "Stockholm"
+    },
+    {
+        "id": "SEX",
+        "name": "Not regionalised/Unknown NUTS 1"
+    },
+    {
+        "id": "SEXX",
+        "name": "Not regionalised/Unknown NUTS 2"
+    },
+    {
+        "id": "SEXXX",
+        "name": "Not regionalised/Unknown NUTS 3"
+    },
+    {
+        "id": "BLEU",
+        "name": "Belgo-Luxembourg Economic Union"
+    },
+    {
+        "id": "BNL",
+        "name": "Benelux Countries"
+    },
+    {
+        "id": "EU_NEU",
+        "name": "EU countries and non-EU countries (aggregate changing according to the context)"
+    },
+    {
+        "id": "EU27_2020_NEU27_2020",
+        "name": "EU27 countries (from 2020) and non-EU27 countries (from 2020)"
+    },
+    {
+        "id": "EU28_NEU28",
+        "name": "EU28 countries (2013-2020) and non-EU28 countries (2013-2020)"
+    },
+    {
+        "id": "EU27_2020_NEA20",
+        "name": "EU27 countries (from 2020) not in EA20 (from 2023) - 7 countries"
+    },
+    {
+        "id": "EU27_2020_NEA20_X_DK_SE",
+        "name": "EU27 countries (from 2020) not in EA20 (from 2023), except DK and SE"
+    },
+    {
+        "id": "EU27_2020_NEA19",
+        "name": "EU27 countries (from 2020) not in EA19 (from 2015) - 8 countries"
+    },
+    {
+        "id": "EU28_NEA19",
+        "name": "EU28 countries (2013-2020) not in EA19 (from 2015) - 9 countries"
+    },
+    {
+        "id": "EU27_2020_NEA18",
+        "name": "EU27 countries (from 2020) not in EA18 (2014) - 9 countries"
+    },
+    {
+        "id": "EU28_NEA18",
+        "name": "EU28 countries (2013-2020) not in EA18 (2014) - 10 countries"
+    },
+    {
+        "id": "EU27_2020_NEA17",
+        "name": "EU27 countries (from 2020) not in EA17 (2011-2013) - 10 countries"
+    },
+    {
+        "id": "EU28_NEA17",
+        "name": "EU28 countries (2013-2020) not in EA17 (2011-2013) - 11 countries"
+    },
+    {
+        "id": "EU_OTH",
+        "name": "Other EU countries"
+    },
+    {
+        "id": "EU27_2020_OTH",
+        "name": "Other EU27 countries (from 2020)"
+    },
+    {
+        "id": "EU25_OTH",
+        "name": "Other EU25 countries (2004-2006)"
+    },
+    {
+        "id": "EU15_OTH",
+        "name": "Other EU15 countries (1995-2004)"
+    },
+    {
+        "id": "INT_EU",
+        "name": "Intra-EU"
+    },
+    {
+        "id": "INT_EU27_2020",
+        "name": "Intra-EU27 (from 2020)"
+    },
+    {
+        "id": "INT_EU28",
+        "name": "Intra-EU28 (2013-2020)"
+    },
+    {
+        "id": "INT_EU27_2007",
+        "name": "Intra-EU27 (2007-2013)"
+    },
+    {
+        "id": "INT_EU25",
+        "name": "Intra-EU25 (2004-2006)"
+    },
+    {
+        "id": "INT_EU15",
+        "name": "Intra-EU15 (1995-2004)"
+    },
+    {
+        "id": "INT_EU_NAL",
+        "name": "Intra-EU, not allocated"
+    },
+    {
+        "id": "INT_EU28_NAL",
+        "name": "Intra-EU28 (2013-2020), not allocated"
+    },
+    {
+        "id": "INT_EU25_NAL",
+        "name": "Intra-EU25 (2004-2006), not allocated"
+    },
+    {
+        "id": "INT_EU15_NAL",
+        "name": "Intra-EU15 (1995-2004), not allocated"
+    },
+    {
+        "id": "EU27_2020_EFTA_FOR",
+        "name": "EU27 countries (from 2020) or EFTA countries except reporting country"
+    },
+    {
+        "id": "EU28_EFTA_FOR",
+        "name": "EU28 countries (2013-2020) or EFTA countries except reporting country"
+    },
+    {
+        "id": "EU_FOR",
+        "name": "EU-countries except reporting country"
+    },
+    {
+        "id": "EU27_2020_FOR",
+        "name": "EU27 countries (from 2020) except reporting country"
+    },
+    {
+        "id": "EU28_FOR",
+        "name": "EU28 countries (2013-2020) except reporting country"
+    },
+    {
+        "id": "EU27_2007_FOR",
+        "name": "EU27 countries (2007-2013) except reporting country"
+    },
+    {
+        "id": "EU25_FOR",
+        "name": "EU25 countries (2004-2006) except reporting country"
+    },
+    {
+        "id": "EU15_FOR",
+        "name": "EU15 countries (1995-2004) except reporting country"
+    },
+    {
+        "id": "EU12_FOR",
+        "name": "EU12 countries (1986-1994) except reporting country"
+    },
+    {
+        "id": "EEA_NEU",
+        "name": "EEA-countries except the EU-countries"
+    },
+    {
+        "id": "NO",
+        "name": "Norway"
+    },
+    {
+        "id": "NO0",
+        "name": "Norge"
+    },
+    {
+        "id": "NO01_02_031-033",
+        "name": "\u00d8stlandet (Oslo og Akershus, Hedmark og Oppland, \u00d8stfold, Buskerud, Vestfold) (statistical region 2016)"
+    },
+    {
+        "id": "NO01",
+        "name": "Oslo og Akershus (statistical region 2016)"
+    },
+    {
+        "id": "NO011",
+        "name": "Oslo (statistical region 2016)"
+    },
+    {
+        "id": "NO012",
+        "name": "Akershus (statistical region 2016)"
+    },
+    {
+        "id": "NO02",
+        "name": "Innlandet"
+    },
+    {
+        "id": "NO020",
+        "name": "Innlandet"
+    },
+    {
+        "id": "NO021",
+        "name": "Hedmark (statistical region 2016)"
+    },
+    {
+        "id": "NO022",
+        "name": "Oppland (statistical region 2016)"
+    },
+    {
+        "id": "NO03",
+        "name": "S\u00f8r-\u00d8stlandet (statistical region 2016)"
+    },
+    {
+        "id": "NO031",
+        "name": "\u00d8stfold (statistical region 2016)"
+    },
+    {
+        "id": "NO032",
+        "name": "Buskerud (statistical region 2016)"
+    },
+    {
+        "id": "NO033",
+        "name": "Vestfold (statistical region 2016)"
+    },
+    {
+        "id": "NO034_041_042",
+        "name": "Telemark, Aust-Agder, Vest-Agder (statistical region 2016)"
+    },
+    {
+        "id": "NO034",
+        "name": "Telemark (statistical region 2016)"
+    },
+    {
+        "id": "NO04",
+        "name": "Agder og Rogaland (statistical region 2016)"
+    },
+    {
+        "id": "NO041",
+        "name": "Aust-Agder (statistical region 2016)"
+    },
+    {
+        "id": "NO042",
+        "name": "Vest-Agder (statistical region 2016)"
+    },
+    {
+        "id": "NO043",
+        "name": "Rogaland (statistical region 2016)"
+    },
+    {
+        "id": "NO05",
+        "name": "Vestlandet (statistical region 2016)"
+    },
+    {
+        "id": "NO051",
+        "name": "Hordaland (statistical region 2016)"
+    },
+    {
+        "id": "NO052",
+        "name": "Sogn og Fjordane (statistical region 2016)"
+    },
+    {
+        "id": "NO053",
+        "name": "M\u00f8re og Romsdal (statistical region 2016)"
+    },
+    {
+        "id": "NO06",
+        "name": "Tr\u00f8ndelag"
+    },
+    {
+        "id": "NO060",
+        "name": "Tr\u00f8ndelag"
+    },
+    {
+        "id": "NO061",
+        "name": "S\u00f8r-Tr\u00f8ndelag (statistical region 2016)"
+    },
+    {
+        "id": "NO062",
+        "name": "Nord-Tr\u00f8ndelag (statistical region 2016)"
+    },
+    {
+        "id": "NO07",
+        "name": "Nord-Norge"
+    },
+    {
+        "id": "NO071",
+        "name": "Nordland"
+    },
+    {
+        "id": "NO072",
+        "name": "Troms (statistical region 2016)"
+    },
+    {
+        "id": "NO073",
+        "name": "Finnmark (statistical region 2016)"
+    },
+    {
+        "id": "NO074",
+        "name": "Troms og Finnmark"
+    },
+    {
+        "id": "NO08",
+        "name": "Oslo og Viken"
+    },
+    {
+        "id": "NO081",
+        "name": "Oslo"
+    },
+    {
+        "id": "NO082",
+        "name": "Viken"
+    },
+    {
+        "id": "NO09",
+        "name": "Agder og S\u00f8r-\u00d8stlandet"
+    },
+    {
+        "id": "NO091",
+        "name": "Vestfold og Telemark"
+    },
+    {
+        "id": "NO092",
+        "name": "Agder"
+    },
+    {
+        "id": "NO0A",
+        "name": "Vestlandet"
+    },
+    {
+        "id": "NO0A1",
+        "name": "Rogaland"
+    },
+    {
+        "id": "NO0A2",
+        "name": "Vestland"
+    },
+    {
+        "id": "NO0A3",
+        "name": "M\u00f8re og Romsdal"
+    },
+    {
+        "id": "NO0B",
+        "name": "Jan Mayen and Svalbard"
+    },
+    {
+        "id": "NO0B1",
+        "name": "Jan Mayen"
+    },
+    {
+        "id": "NO0B2",
+        "name": "Svalbard"
+    },
+    {
+        "id": "NOZ",
+        "name": "Extra-Regio level 1"
+    },
+    {
+        "id": "NOZZ",
+        "name": "Extra-Regio level 2"
+    },
+    {
+        "id": "NOZZZ",
+        "name": "Extra-Regio level 3"
+    },
+    {
+        "id": "NO_CAP",
+        "name": "Oslo"
+    },
+    {
+        "id": "NOX",
+        "name": "Not regionalised/Unknown level 1"
+    },
+    {
+        "id": "NOXX",
+        "name": "Not regionalised/Unknown level 2"
+    },
+    {
+        "id": "NOXXX",
+        "name": "Not regionalised/Unknown level 3"
+    },
+    {
+        "id": "EUR_C_E",
+        "name": "Central and Eastern Europe"
+    },
+    {
+        "id": "EUR_C_E_OTH",
+        "name": "Other Central and Eastern European countries"
+    },
+    {
+        "id": "EX_SU_EUR",
+        "name": "European Republics of the former Soviet Union"
+    },
+    {
+        "id": "EXT_EU",
+        "name": "Extra-EU"
+    },
+    {
+        "id": "EXT_EU27_2020",
+        "name": "Extra-EU27 (from 2020)"
+    },
+    {
+        "id": "EXT_EU28",
+        "name": "Extra-EU28 (2013-2020)"
+    },
+    {
+        "id": "EXT_EU27_2007",
+        "name": "Extra-EU27 (2007-2013)"
+    },
+    {
+        "id": "EXT_EU25",
+        "name": "Extra-EU25 (2004-2006)"
+    },
+    {
+        "id": "EXT_EU15",
+        "name": "Extra-EU15 (1995-2004)"
+    },
+    {
+        "id": "EXT_EU12",
+        "name": "Extra-EU12 (1986-1994)"
+    },
+    {
+        "id": "EXT_EU_NAL",
+        "name": "Extra-EU, not allocated"
+    },
+    {
+        "id": "EXT_EU27_2020_NAL",
+        "name": "Extra-EU27 (from 2020), not allocated"
+    },
+    {
+        "id": "EXT_EU28_NAL",
+        "name": "Extra-EU28 (2013-2020), not allocated"
+    },
+    {
+        "id": "EXT_EU27_2007_NAL",
+        "name": "Extra-EU27 (2007-2013), not allocated"
+    },
+    {
+        "id": "EXT_EU25_NAL",
+        "name": "Extra-EU25 (2004-2006), not allocated"
+    },
+    {
+        "id": "NEU",
+        "name": "Non-EU countries (aggregate changing according to the context)"
+    },
+    {
+        "id": "NEU_HDI_VH",
+        "name": "Non-EU countries with very high Human Development Index (HDI)"
+    },
+    {
+        "id": "NEU_HDI_H",
+        "name": "Non-EU countries with high Human Development Index (HDI)"
+    },
+    {
+        "id": "NEU_HDI_M",
+        "name": "Non-EU countries with medium Human Development Index (HDI)"
+    },
+    {
+        "id": "NEU_HDI_L",
+        "name": "Non-EU countries with low Human Development Index (HDI)"
+    },
+    {
+        "id": "NEU_NHDI",
+        "name": "Non-EU countries with no Human Development Index (HDI) ranking"
+    },
+    {
+        "id": "NEU27_2020_NEFTA",
+        "name": "Non-EU27 countries (from 2020) nor EFTA countries"
+    },
+    {
+        "id": "NEU28_NEFTA",
+        "name": "Non-EU28 countries (2013-2020) nor EFTA countries"
+    },
+    {
+        "id": "NEU27_2020",
+        "name": "Non-EU27 countries (from 2020)"
+    },
+    {
+        "id": "NEU28",
+        "name": "Non-EU28 countries (2013-2020)"
+    },
+    {
+        "id": "NEU_FOR",
+        "name": "Non-EU countries nor reporting country (aggregate changing according to the context)"
+    },
+    {
+        "id": "NEU27_2020_FOR",
+        "name": "Non-EU27 countries (from 2020) nor reporting country"
+    },
+    {
+        "id": "NEU28_FOR",
+        "name": "Non-EU28 countries (2013-2020) nor reporting country"
+    },
+    {
+        "id": "NEU27_2007_FOR",
+        "name": "Non-EU27 countries (2007-2013) nor reporting country"
+    },
+    {
+        "id": "NEU27_2007_FOR_STLS",
+        "name": "Non-EU27 countries (2007-2013) nor reporting country and stateless"
+    },
+    {
+        "id": "NEU15_FOR",
+        "name": "Non-EU15 countries (1995-2004) nor reporting country"
+    },
+    {
+        "id": "EUR_NEU",
+        "name": "European non-EU countries (aggregate changing according to the context)"
+    },
+    {
+        "id": "EUR_NEU27_2020_NEFTA",
+        "name": "European non-EU27 countries (from 2020) and European non-EFTA countries"
+    },
+    {
+        "id": "EUR_NEU27_2020",
+        "name": "European non-EU27 countries (from 2020)"
+    },
+    {
+        "id": "EUR_NEU28_NEFTA",
+        "name": "European non-EU28 countries (up to 2019) and European non-EFTA countries"
+    },
+    {
+        "id": "EUR_NEU28",
+        "name": "European non-EU28 countries (2013-2020)"
+    },
+    {
+        "id": "EUR_NEU27_2007",
+        "name": "European non-EU27 countries (2007-2013)"
+    },
+    {
+        "id": "EUR_NEU25",
+        "name": "European non-EU25 countries (2004-2006)"
+    },
+    {
+        "id": "EUR_NEU15",
+        "name": "European non-EU15 countries (1995-2004)"
+    },
+    {
+        "id": "EUROTH",
+        "name": "European countries not EU nor EFTA (aggregate changing according to the context)"
+    },
+    {
+        "id": "EUR_OTH",
+        "name": "Other European countries (aggregate changing according to the context)"
+    },
+    {
+        "id": "EUR_NSP",
+        "name": "European countries, not specified"
+    },
+    {
+        "id": "ASI_ESSE",
+        "name": "Eastern, Southern and South-Eastern Asia"
+    },
+    {
+        "id": "ASI_SSE",
+        "name": "Southern and South-Eastern Asia"
+    },
+    {
+        "id": "EUI",
+        "name": "Institutions and bodies of the European Union"
+    },
+    {
+        "id": "EUI_X_EAI",
+        "name": "EU institutions except the institutions of the euro area (aggregate changing according to the context)"
+    },
+    {
+        "id": "EUI_X_ECB",
+        "name": "EU institutions except the ECB"
+    },
+    {
+        "id": "EU_BDG",
+        "name": "All EU institutions financed via the EU Budget"
+    },
+    {
+        "id": "EUB_MNR",
+        "name": "Other small EU institutions financed via the EU Budget"
+    },
+    {
+        "id": "EUB_OTH",
+        "name": "Other EU institutions financed via the EU Budget"
+    },
+    {
+        "id": "EUI_NBDG",
+        "name": "EU institutions not financed via the EU Budget"
+    },
+    {
+        "id": "EURATOM",
+        "name": "European Atomic Energy Community"
+    },
+    {
+        "id": "UNO",
+        "name": "United Nations Organization"
+    },
+    {
+        "id": "UNO_OTH",
+        "name": "United Nations Organization except IMF, WTO, IBRD, IDA"
+    },
+    {
+        "id": "ASEAN",
+        "name": "Association of Southeast Asian Nations"
+    },
+    {
+        "id": "EURMED",
+        "name": "Mediterranean countries in the Euro-Mediterranean Partnership"
+    },
+    {
+        "id": "G20_X_EU27_2020",
+        "name": "Group of Twenty except the EU27 countries (from 2020)"
+    },
+    {
+        "id": "OECD_NEU",
+        "name": "OECD non-EU countries"
+    },
+    {
+        "id": "NOECD",
+        "name": "Non-OECD countries"
+    },
+    {
+        "id": "SNTL_EU27_2020",
+        "name": "Supranational organizations based in EU27 (from 2020)"
+    },
+    {
+        "id": "SNTL_OTH_EU27_2020",
+        "name": "Other supranational organizations based in EU27 (from 2020)"
+    },
+    {
+        "id": "ORG_NEUR",
+        "name": "Non European International Organizations"
+    },
+    {
+        "id": "EURONEXT",
+        "name": "Euronext from 01/2001: Amsterdam-Brussels-Paris; from 02/2002: + Lisbon"
+    },
+    {
+        "id": "WRL_X_EUR",
+        "name": "World except Europe"
+    }
+]
