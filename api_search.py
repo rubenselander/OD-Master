@@ -74,13 +74,25 @@ def search_eurostat(search_string: str, year: int = None, k=10) -> dict:
     return formatted_results
 
 
+def od_search(search_string: str, k: int = 10):
+    """Performs a search in tables based on the given search string."""
+    results = vector_store.search(
+        embedding_data=search_string,
+        embedding_function=cohere_embedding_function,
+        exec_option="tensor_db",
+        return_tensors=["text", "code", "start_date", "end_date"],
+        k=k,
+    )
+    return results
+
+
 def test_search():
     search_string = "Does life expectancy in the EU correlate with GDP per capita?"
     search_results = search_eurostat(search_string, k=2)
     print(f"type: {type(search_results)}")
     print(f"search_results: {search_results}")
-    # with open("search_test.json", "w") as f:
-    #     json.dump(search_results, f, indent=4, ensure_ascii=False)
+    with open("search_test.json", "w") as f:
+        json.dump(search_results, f, indent=4, ensure_ascii=False)
 
 
 # search_string = "Does life expectancy in the EU correlate with GDP per capita?"
