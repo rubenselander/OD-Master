@@ -18,11 +18,6 @@ vector_store = VectorStore(
 )
 
 
-# # Potential filter function for vector_store.search
-# def filter_tokens_fn(x):
-#     return x["metadata"].data()["value"]["tokens"] < 1000
-
-
 def cohere_embedding_function(texts, model="embed-multilingual-v3.0"):
     if isinstance(texts, str):
         texts = [texts]
@@ -41,36 +36,6 @@ def search_tables(search_string: str, k: int = 10):
         k=k,
     )
     return results
-
-
-def format_variable(variable: dict, variable_code: str) -> dict:
-    """Formats a variable from the vector store to the format expected by the frontend."""
-    formatted_variable = {"code": variable_code, "text": variable["text"], "values": []}
-    for value_code, value_text in variable["values"].items():
-        formatted_variable["values"].append(
-            {
-                "code": value_code,
-                "text": value_text,
-            }
-        )
-    return formatted_variable
-
-
-def get_variables(table_code: str) -> list[dict]:
-    """Gets the variables for a given table."""
-    # select "variables" where "code" == 'HSW_MI03'
-    variables = vector_store.search(
-        query=f"select variables where code == '{table_code.upper()}'",
-        exec_option="tensor_db",
-    )
-    variables = variables["variables"]
-    if variables and isinstance(variables, list) and len(variables) == 1:
-        variables = variables[0]
-
-    formatted_variables = []
-    for variable_code, variable in variables.items():
-        formatted_variables.append(format_variable(variable, variable_code))
-    return formatted_variables
 
 
 def format_search_results(search_results: dict, include_score: bool = False) -> dict:
@@ -116,20 +81,3 @@ def test_search():
 
 test_search()
 # https://ec.europa.eu/eurostat/databrowser/view/lfsa_upgadl
-
-
-# def test_variables():
-#     table_code = "HSW_MI03"
-#     variables = get_variables(table_code)
-#     print(f"variables: {variables}")
-#     if isinstance(variables, str):
-#         variables = json.loads(variables)
-
-#     # save to variables_test.json
-#     with open("variables_test.json", "w", encoding="utf-8") as f:
-#         json.dump(variables, f, indent=4, ensure_ascii=False)
-
-
-# if __name__ == "__main__":
-#     test()
-#     test_variables()

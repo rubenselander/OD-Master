@@ -1,6 +1,5 @@
 requests
 pandas
 deeplake
-pyjstat
 cohere
 ipykernel
